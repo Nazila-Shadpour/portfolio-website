@@ -22,7 +22,7 @@ body {
 	font-weight: 400;
 	line-height: 1.5;
 	color: #282828;
-	background-color: #ffffff;
+	background-color: #FFF7D1;
 }
 
 h1,
@@ -31,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif;
+	font-family: "Montserrat", Georgia, Times, "Times New Roman", serif;
 	margin: .5em 0;
 	font-size: 1.75rem;
 	text-align: center;
@@ -82,7 +82,7 @@ a:active {
 /* Header styles */
 .site-header {
 	padding: 0 1rem;
-    background-color: #f5e0d5;
+    background-color: #FFD09B;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;  
@@ -98,7 +98,7 @@ a:active {
     left: 0;
     right: 0;
     width: 100%;
-    background-color: #f5e0d5;
+    background-color: #FFD09B;
     display: flex;
     justify-content: space-around;
     padding: 0.5rem 0;
@@ -139,7 +139,7 @@ a:active {
         bottom: auto; 
         left: 0;
         right: 0;
-        background-color: #f5e0d5;
+        background-color: #FFD09B;
         display: flex;
         justify-content: space-between;
         padding: 0 1rem;
@@ -162,4 +162,20 @@ a:active {
 }
 
 /* Main styles */
+
+/* Greeting section */
+.page-header {
+	
+}
+
+.page-header h1, h2 {
+	text-shadow: 5px 5px 5px #807e7e;
+    text-align: left;
+}
+
+
+
+@media (min-width: 50em) {
+	
+}
 /* Footer styles */
