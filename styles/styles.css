@@ -1,0 +1,165 @@
+/* TABLE OF CONTENTS --------------------------------------------
+# Generic (CALLED IN NORMALIZE.CSS)
+	- Normalize
+	- Box sizing
+	- Media width
+# Base
+	- Typography
+	- Elements
+	- Links
+# Components
+	- Header
+	- Main
+	- Footer
+--------------------------------------------------------------*/
+
+/* # Base ----------------------------------------------------*/
+
+/* Typography ----------------------------------------------- */
+body {
+	font-family: "Roboto", Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #282828;
+	background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif;
+	margin: .5em 0;
+	font-size: 1.75rem;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3.25rem;
+	margin: 0 0 .5em;
+}
+
+h2 {
+	font-size: 1.75rem;
+}
+
+p {
+	margin: 0 0 1.5em;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+/* Elements
+--------------------------------------------- */
+section,
+aside {
+	padding: 0 1rem;
+}
+
+/* Links
+--------------------------------------------- */
+a,
+a:visited { 
+	color: #008000;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+	text-decoration: underline;
+}
+
+/* # Components 
+-----------------------------------------------------*/
+
+/* Header styles */
+.site-header {
+	padding: 0 1rem;
+    background-color: #f5e0d5;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;  
+	position: sticky;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	top: 0;
+}
+.site-navigation {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #f5e0d5;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 0;
+    z-index: 100;
+}
+
+.site-navigation ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.site-navigation a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.site-logo {
+	max-width: 6rem;
+	margin: 0.5rem;
+}
+
+.site-logo img {
+	display: block;
+	width: 4rem;
+}
+
+@media (min-width: 50em) {
+
+    .site-navigation {
+        position: sticky;
+        top: 0;
+        bottom: auto; 
+        left: 0;
+        right: 0;
+        background-color: #f5e0d5;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+    .site-navigation ul {
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .site-navigation a {
+        text-decoration: none;
+        color: #000000;
+        line-height: 4.5rem; 
+		padding: 0 1rem;
+    }
+}
+
+/* Main styles */
+/* Footer styles */
