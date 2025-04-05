@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles/styles.css">
 
     <!-- <script src="scripts/navigation.js" defer></script> -->
+     <script src="scripts/skills-filter.js" defer></script>
 </head>
 <body>
     <header class="site-header">
@@ -36,6 +37,45 @@
             <h2>Front-End Web Developer.</h2>
             <p>Welcome to My Website!</p>
         </header>
+        <section class="about-section" id="about">
+            <h2>About</h2>
+            <p>I’m a graduate of the Front-End Web Developer program at BCIT, and I love turning ideas into interactive and visually appealing web experiences. With a background in software engineering and industrial engineering, I bring both technical expertise and problem-solving skills to my work.</p>
+
+            <p>Before transitioning into front-end development, I gained 10 years of experience in office administration, purchasing, HR, and software development. This diverse background has helped me develop strong organizational skills, teamwork, and adaptability. Now, I focus on building clean, user-friendly, and responsive designs that bring ideas to life.</p>
+        </section>
+        <section class="skills-section">
+            <h2>My Skills</h2>
+            <div class="filter-buttons">
+                <button class="active" onclick="toggleFilter('all', this)">All</button>
+                <button onclick="toggleFilter('development', this)">Development</button>
+                <button onclick="toggleFilter('design', this)">Design</button>
+            </div>
+            <div class="skills">
+                <p class="skill-item development">HTML</p>
+                <p class="skill-item development">CSS</p>
+                <p class="skill-item development">Sass</p>
+                <p class="skill-item development">JavaScript</p>
+                <p class="skill-item development">PHP</p>
+                <p class="skill-item development">React</p>
+                <p class="skill-item development">WordPress</p>
+                <p class="skill-item development">Headless CMS</p>
+                <p class="skill-item development">Shopify</p>
+                <p class="skill-item development">WooCommerce</p>
+               
+                <p class="skill-item design">Adobe Photoshop</p>
+                <p class="skill-item design">Adobe Illustrator</p>
+                <p class="skill-item design">Adobe XD</p>
+                <p class="skill-item design">Figma</p>
+                <p class="skill-item design">UX design</p>
+            </div>
+        </section>
+        <section class="education-section">
+            <h2>Education</h2>
+            <h4>British Columbia Institute of Technology (BCIT)</h4>
+            <ul>
+                <li>Front-End Web Developer Certificate (October 2024 - May 2025)</li>
+            </ul>
+        </section>
     </main>
     <footer class="site-footer">
 

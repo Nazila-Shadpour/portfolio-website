@@ -22,7 +22,7 @@ body {
 	font-weight: 400;
 	line-height: 1.5;
 	color: #282828;
-	background-color: #FFF7D1;
+	background-color: #FFF7F3;
 }
 
 h1,
@@ -35,15 +35,6 @@ h6 {
 	margin: .5em 0;
 	font-size: 1.75rem;
 	text-align: center;
-}
-
-h1 {
-	font-size: 3.25rem;
-	margin: 0 0 .5em;
-}
-
-h2 {
-	font-size: 1.75rem;
 }
 
 p {
@@ -82,7 +73,7 @@ a:active {
 /* Header styles */
 .site-header {
 	padding: 0 1rem;
-    background-color: #FFD09B;
+    background-color: #FAD0C4;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;  
@@ -98,7 +89,7 @@ a:active {
     left: 0;
     right: 0;
     width: 100%;
-    background-color: #FFD09B;
+    background-color: #FAD0C4;
     display: flex;
     justify-content: space-around;
     padding: 0.5rem 0;
@@ -139,7 +130,6 @@ a:active {
         bottom: auto; 
         left: 0;
         right: 0;
-        background-color: #FFD09B;
         display: flex;
         justify-content: space-between;
         padding: 0 1rem;
@@ -163,7 +153,7 @@ a:active {
 
 /* Main styles */
 
-/* Greeting section */
+/* Greeting section ----------------------------------------------------------------- */
 .page-header {
 	
 }
@@ -176,6 +166,56 @@ a:active {
 
 
 @media (min-width: 50em) {
-	
+	h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.25rem;
+    }
 }
+
+/* About section --------------------------------------------------------------- */
+.filter-buttons button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.skill-item {
+    background: #E6B2BA;
+    padding: 10px 15px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.filter-buttons button:hover {
+    background-color: #C599B6;
+}
+
+.filter-buttons button.active {
+    background-color: #C599B6;
+}
+
+.education-section h4 {
+    text-align: left;
+}
+
+@media (min-width: 50em) {
+    
+	h4 {
+        font-size: 1.5rem ;
+    }
+}
+
 /* Footer styles */
