@@ -218,4 +218,50 @@ a:active {
     }
 }
 
+/* Work section --------------------------------------------------------------- */
+.project-card {
+    background-color: #ddd;
+    max-width: 18.75rem;
+	box-shadow: 5px 10px 10px #C599B6;
+	border-radius: 1.5rem;
+    margin: 2rem auto;
+	overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.project-card a {
+    color: #000;
+}
+
+.project-card
+    a:focus,
+    a:active {
+    text-decoration: none;
+}
+
+.project-name {
+    text-align: left;
+    margin: 1rem;
+}
+
+.project-description {
+    margin: 1rem;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+@media (min-width: 50em) {
+    .projects-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .project-card {
+        margin: 1rem;
+    }
+}
+
 /* Footer styles */
