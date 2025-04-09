@@ -153,9 +153,14 @@ a:active {
 
 /* Main styles */
 
+.site-main {
+    max-width: 70rem;
+    margin: 3rem auto;
+}
+
 /* Greeting section ----------------------------------------------------------------- */
 .page-header {
-	
+	padding: 0 1rem;
 }
 
 .page-header h1, h2 {
@@ -175,6 +180,9 @@ a:active {
 }
 
 /* About section --------------------------------------------------------------- */
+#about {
+    scroll-margin-top: 80px;
+}
 .filter-buttons button {
     padding: 10px 15px;
     margin: 5px;
@@ -219,6 +227,10 @@ a:active {
 }
 
 /* Work section --------------------------------------------------------------- */
+#work {
+    scroll-margin-top: 80px;
+}
+
 .project-card {
     background-color: #ddd;
     max-width: 18.75rem;
@@ -262,6 +274,11 @@ a:active {
     .project-card {
         margin: 1rem;
     }
+}
+
+/* Contact section ----------------------------------------------------------------- */
+.contact-section {
+    padding-bottom: 80px;
 }
 
 /* Footer styles */
