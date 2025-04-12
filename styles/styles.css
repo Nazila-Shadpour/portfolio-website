@@ -226,7 +226,7 @@ a:active {
 
 .site-main {
     max-width: 70rem;
-    margin: 3rem auto;
+    margin: 1rem auto;
 }
 
 /* Greeting section ----------------------------------------------------------------- */
@@ -387,7 +387,8 @@ a:active {
 }
 
 .contact-section {
-    padding: 80px;
+    /* padding-top: 80px; */
+    margin: 3rem 0;
     text-align: center;
 }
 
@@ -430,4 +431,14 @@ a:active {
     color: #fff;
 }
 
-/* Footer styles */
+/* Footer styles ----------------------------------------------------------- */
+.site-footer {
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+@media (min-width: 50em) {
+   .site-footer {
+        margin-bottom: 0;
+   }
+}
