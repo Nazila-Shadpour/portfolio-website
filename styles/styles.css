@@ -431,6 +431,28 @@ a:active {
     color: #333;
   }
 
+  /* styling the nav */
+  .project-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem auto;
+    padding: 1rem;
+  }
+  
+  .project-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-nav a:hover {
+    color: #367740;
+    transform: scale(1.1);;
+  }
+
 @media (min-width: 50em) {
     .projects-wrapper{
         display: flex;
