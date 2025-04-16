@@ -225,7 +225,7 @@ a:active {
 /* Main styles */
 
 .site-main {
-    max-width: 70rem;
+    max-width: 75rem;
     margin: 1rem auto;
 }
 
@@ -388,6 +388,20 @@ a:active {
     background-color: #367740;
     color: #fff;
     text-decoration: none;
+  }
+
+  .project-images-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem; 
+    flex-wrap: wrap;
+  }
+  
+  .project-image {
+    height: 450px; 
+    width: auto;  
+    object-fit: contain;
   }
 
   .accordion {
