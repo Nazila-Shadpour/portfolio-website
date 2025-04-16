@@ -398,11 +398,7 @@ a:active {
     flex-wrap: wrap;
   }
   
-  .project-image {
-    height: 450px; 
-    width: auto;  
-    object-fit: contain;
-  }
+  
 
   .accordion {
     margin: 4rem auto;
@@ -477,6 +473,12 @@ a:active {
     .project-card {
         margin: 1.25rem;
     }
+
+    .project-image {
+        height: 450px; 
+        width: auto;  
+        object-fit: contain;
+      }
 }
 
 /* Contact section ----------------------------------------------------------------- */
