@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="styles/normalize-fwd.css">
     <link rel="stylesheet" href="styles/styles.css">
 
-     <script src="scripts/skills-filter.js" defer></script>
-     <script src="scripts/copy-email.js"></script>
+    <script src="scripts/skills-filter.js" defer></script>
+    <script src="scripts/copy-email.js"></script>
 </head>
 <body>
     <div class="floating-shapes">
@@ -42,9 +42,19 @@
     <main class="site-main">
         <section class="project-header">
           <h1 class="project-title">CinematicWanders</h1>
-          <div class="project-images-wrapper">
-            <img src="images/react-movie-database.jpg" alt="CinematicWanders desktop preview" class="project-image">
-            <img src="images/react-movie-database-mobile.png" alt="CinematicWanders mobile preview" class="project-image">
+          <div class="dual-device-wrapper">
+
+            <div class="device monitor-wrapper">
+              <img src="images/monitor.webp" class="monitor" alt="a monitor image">
+              <img src="images/react-movie-database.jpg" class="project-image desktop-preview" alt="CinematicWanders desktop preview">
+            </div>
+
+            <div class="device mobile-wrapper">
+              <img src="images/iphone.png" class="mobile" alt="a mobile image">
+              <div class="mobile-preview-wrapper">
+                <img src="images/react-movie-database-mobile.png" class="project-image mobile-preview" alt="CinematicWanders mobile preview">
+              </div>
+            </div>
           </div>
         </section>
         

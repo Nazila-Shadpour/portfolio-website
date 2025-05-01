@@ -14,7 +14,7 @@
 
 	const button = siteNavigation.getElementsByTagName( 'button' )[ 0 ];
 
-	// Return early if the button don't exist.
+	// Return early if the button doesn't exist.
 	if ( 'undefined' === typeof button ) {
 		return;
 	}
