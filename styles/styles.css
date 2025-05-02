@@ -282,11 +282,11 @@ a:active {
 }
 
 .filter-buttons button:hover {
-    background-color: #C599B6;
+    background-color: #CFABC2;
 }
 
 .filter-buttons button.active {
-    background-color: #C599B6;
+    background-color: #CFABC2;
 }
 
 .education-section {
@@ -435,7 +435,7 @@ a:active {
 
 .project-card:hover {
     transform: scale(1.1);
-    box-shadow: 8px 15px 15px #C599B6;
+    box-shadow: 8px 15px 15px #CFABC2;
 }
 
 .project-card a:hover {
@@ -450,7 +450,7 @@ a:active {
     display: inline-block;
     padding: 10px 20px;
     margin: 1rem;
-    background-color: #C599B6;
+    background-color: #CFABC2;
     color: #000;
     text-decoration: none;
     border-radius: 8px;
@@ -581,7 +581,7 @@ details p {
 
 .contact-section button {
     display: block;
-    background-color: #C599B6;
+    background-color: #CFABC2;
     border-radius: 8px;
     padding: 10px 20px;
     margin: 2rem auto;
